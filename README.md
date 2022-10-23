@@ -6,12 +6,17 @@ This is a simple note-taking application that can be used to transcribe, save, a
 ## Deployed Application 
 View the deployed application live at Heroku via the link below! 
 https://briggoh-notely.herokuapp.com/
+
 ## Installation
 - In order to utilize this application, the user must first download node.js.
 - With the successful installation of node.js, then the user must clone this repo. In order to access the SSH key, click the green "code" button located above the documents/folders.
 - Upon completion of the previous step, the user must then install all of the required packages. This is done by opening an integrated terminal and running the code "npm i".
+
 ## Preview 
 Attached below is a video containing a demonstration of deployed application 
+
+![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/109489824/197412342-54d164d3-bde9-4a69-be0f-0c4d94093fc0.gif)
+https://www.loom.com/share/dd23c7c0fb9744d39e43b8edd3fc41d6
 
 ## Technologies Utilized
 - JavaScript
