@@ -1,24 +1,25 @@
-// Requiring NPM express package
+// Requiring express package from NPM
 const express = require('express');
 
-// Utilizing the express package 
+// Initializes the usage of express package
 const app = express();
 
-// Creating a PORT
-const PORT = process.env.PORT || 3009;
+// Creates a PORT
+const PORT = process.env.PORT || 3008;
 
-// This asks express to create a route for all files contained 
-// within the 'public' folder and assigns it a '/' route
+// Requires express to produce a route for the files within the public folder
 app.use(express.static('public'));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// These are the routes used to route the files
+
+// This routes to the "route" files
 require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
-// This makes the server live
+
+// This initializes the server 
 app.listen(PORT, () => {
-    console.log(`Server available at localhost${PORT}`);
-})
+  console.log(`Server available at localhost${PORT}`);
+});
