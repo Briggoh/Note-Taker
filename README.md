@@ -1,4 +1,4 @@
-# Note-Taker
+# Notely, A Note-Taking Application
 
 ## Description 
 This is a simple note-taking application that can be used to transcribe, save, and delete notes. It was made using front-end and back-end technologies, with a foundational utilization of express.js. 
