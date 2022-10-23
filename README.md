@@ -13,10 +13,9 @@ https://briggoh-notely.herokuapp.com/
 - Upon completion of the previous step, the user must then install all of the required packages. This is done by opening an integrated terminal and running the code "npm i".
 
 ## Preview 
-Attached below is a video containing a demonstration of deployed application 
+Attached here is a video containing a demonstration of deployed application https://www.loom.com/share/dd23c7c0fb9744d39e43b8edd3fc41d6
 
 ![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/109489824/197412342-54d164d3-bde9-4a69-be0f-0c4d94093fc0.gif)
-https://www.loom.com/share/dd23c7c0fb9744d39e43b8edd3fc41d6
 
 ## Technologies Utilized
 - JavaScript
